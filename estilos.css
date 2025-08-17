@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rancho&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  color: white;
+  padding: 40px 0;
+}
+
+#contenedor {
+  width: 1200px;
+  margin: auto;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+  transition: transform 0.3s;
+}
+
+#encabezado {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  padding: 35px 25px;
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  text-shadow: 3px 3px 6px black;
+  border-radius: 12px 12px;
+  margin-bottom: 25px;
+  transition: transform 0.3s;
+}
+
+#encabezado:hover {
+  transform: scale(1.05);
+}
+
+#botonera {
+  text-align: center;
+  padding: 20px;
+  background-color: #292929;
+  margin-bottom: 30px;
+}
+
+.boton {
+  margin: 15px;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 17px;
+}
+
+.boton:hover {
+  background-color: #ffffff;
+  color: #ff4b2b;
+}
+
+#centro {
+  padding: 30px;
+}
+
+.caja {
+    width: 1000px;
+	height: 550px;
+    background: linear-gradient(to bottom right, #ff6a00, #ee0979);
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.caja:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.5);
+}
+
+.caja h3 {
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+
+.caja p {
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.caja a {
+  color: #ffff00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#pie {
+  background-color: #111;
+  text-align: center;
+  padding: 18px;
+  font-size: 30px;
+  border-radius: 0 0 12px 12px;
+  margin-top: 30px;
+}
+
+.caja img {
+    height: auto;
+    border-radius: 10px;
+    margin-top: 50px auto;
+    margin-right: auto;
+    margin-left: 190px;
+    margin-bottom: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    transition: transform 0.3s;
+}
+
+.caja img:hover {
+  transform: scale(1.02);
+}
